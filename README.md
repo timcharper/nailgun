@@ -10,6 +10,8 @@ maintained by <a href="https://buckbuild.com/">Buck team</a>. Nailgun will remai
 Nailgun is a client, protocol, and server for running Java programs from
 the command line without incurring the JVM startup overhead.
 
+Nailgun 1.0 is not compatible with Java 9 and later.
+
 Programs run in the server (which is implemented in Java), and are 
 triggered by the client (written in C), which handles all I/O.
 
